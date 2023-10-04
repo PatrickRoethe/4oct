@@ -1,14 +1,36 @@
+* {
+}
+
 /* This is my first editing just to remind you*/
+body {
+    /*background-image: url("");}
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+
 #first-heading{
- color: green;
+} color: rgb(0,250,0);
  /*background-color: orange;*/
  font-size: 72px;
  width: 200px;
  height: 200px;
 }
 
-#second-heading{
+/*#first-heading-sub-word {
     color: red;
+} */
+
+/* #first-heading-span  {
+    color: red; */
+
+#second-heading{
+    color: blue;
+    background-color: transparent;
+    border-style: solid;
+    /*border-width: 8px solid green; */
+    border-top-style: none;
+    border-radius: 8px;
+
 }
 
 #third-heading{
@@ -25,5 +47,11 @@
 p {
     font-weight: bold;
     background-color: aqua;
-    font-size: 25px;
+    font-size: 10px;
+}
+
+a {
+    font-size: 20px;
+    background-color: green;
+    
 }
